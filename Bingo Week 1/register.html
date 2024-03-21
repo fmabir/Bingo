@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/registration-styles.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <form action="/register" method="post">
+
+        <h1>🅑 &nbsp; 🅝🅖🅞</h1>
+
+        <img class="logo-icon" src="/idea.gif" alt="couldn't load image">
+
+        <h2>Registration</h2>
+        <!-- <img class="reg-name" src="/registration.gif" alt=""> -->
+        <div class="data-field">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required> <br><br>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" required> <br><br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" required><br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="date" required> <br><br>
+            <label for="dept">NSU ID</label>
+            <input type="number" id="num" name="id" required> <br><br>
+            <label for="dept">Department</label>
+            <input type="text" id="dept" name="dept" required> <br><br>
+            <label for="gender">Gender </label>
+            <input type="radio" name="gender" value="Male" required>Male
+            <input type="radio" name="gender" value="Female" required>Female
+            <input type="radio" name="gender" value="other" required>Other <br><br><br>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('/nsu2.jpg');
+    background-size: 95.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    opacity: 0.85;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(48, 198, 173);
+    font-size: 5rem;
+    display: inline;
+    margin-left: 25px;
+    z-index: 10;
+}
+
+
+.logo-icon {
+    width: 5.5rem;
+    position: relative;
+    left: 5.2rem;
+    bottom: 5.8rem;
+    z-index: -1;
+    display: inline;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -80px;
+    font-size: 1.8rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(48, 198, 173);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(10, 114, 99);
+    
+
+}
+
+form {
+    opacity: 0.85;
+    background-color: white;
+    position: relative;
+    top: -80px;
+}
