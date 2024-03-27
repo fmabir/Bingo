@@ -34,7 +34,7 @@ const connection = mysql.createConnection({
     user: 'root',
     password: '',
     //I have changed the port to match my port
-    port: '3308',
+    port: '3306',
     //database name
     database: 'bingo'
 });
