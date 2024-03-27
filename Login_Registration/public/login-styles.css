@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 400px;
-    height: 400px;
+    height: 450px;
     margin: 50px auto;
     background-color: #fff;
     opacity: 0.85;
@@ -54,15 +54,27 @@ h2 {
 
 input[type="text"],
 input[type="password"],
-input[type="number"],
-select {
+input[type="number"] {
     width: 100%;
     padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
+    margin: 10px 0;
+    margin-bottom: 25px;
+    border: 1px solid #5bddb8;
     border-radius: 5px;
     box-sizing: border-box;
+    background-color: #e7e7e7;
+    box-shadow: 3px 3px rgb(210, 209, 209);
+    transition: 0.2s;
 }
+ 
+#password:hover{
+    box-shadow: 5px 5px rgb(210, 209, 209);
+}
+
+#nsu_id:hover{
+    box-shadow: 5px 5px rgb(210, 209, 209);
+}
+
 
 input[type="submit"] {
     background-color: rgb(48, 198, 173);
@@ -75,12 +87,20 @@ input[type="submit"] {
     width: 100%;
     font-size: 18px;
     font-weight: 550;
+    box-shadow: 3px 3px rgb(210, 209, 209);
+    transition: 0.2s;
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(10, 114, 99);
-    
+    background-color:  rgb(48, 198, 173);
+    color: #ffffff;
+    box-shadow: 5px 5px rgb(210, 209, 209);
+}
 
+input[type="submit"]:active {
+    background-color: #e7e7e7;
+    color: rgb(48, 198, 173);
+    box-shadow: 5px 5px rgb(210, 209, 209);
 }
 
 form {
